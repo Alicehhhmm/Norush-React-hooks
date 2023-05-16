@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "dhooks": ["src"],
+      "dhooks/*": ["src/*", "*"]
+    }
+  },
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "src/**/*",
+    "pages/hooks/src/useBoolean",
+    "pages/hooks/src/useBoolean"
+  ]
+}
