@@ -1,12 +1,12 @@
 ---
 hero:
   title: library
-  description: A react library developed with dumi
+  description: 一套丰富量可靠的 React Hooks 库
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 指南
+      link: /guide
+    - text: Hooks 列表
+      link: /components
 features:
   - title: Hello
     emoji: 💎
@@ -18,5 +18,3 @@ features:
     emoji: 🚀
     description: Put ! description here
 ---
-
-dhooks

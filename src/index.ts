@@ -1,11 +1,11 @@
-import Foo from './Foo';
+import AHome from './AHome';
 import Button from './Button';
 import PrimaryButton from './PrimaryButton';
 import useBoolean from './useBoolean';
 import useToggle from './useToggle';
 
 export {
-  Foo,
+  AHome,
   Button,
   PrimaryButton,
   useBoolean,

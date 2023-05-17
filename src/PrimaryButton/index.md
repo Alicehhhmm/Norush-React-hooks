@@ -2,10 +2,9 @@
 category: Components
 title: PrimaryButton # 组件的标题，会在菜单侧边栏展示
 toc: content # 在页面右侧展示锚点链接
-order: 3 #控制页面顺序，数字越小越靠前，默认以路径长度和字典序排序
 group: # 分组
   title: example #自定义分组名称
-  order: 1 #控制分组顺序，数字越小越靠前，默认以路径长度和字典序排序
+  order: 10 #控制分组顺序，数字越小越靠前，默认以路径长度和字典序排序
 ---
 
 ​

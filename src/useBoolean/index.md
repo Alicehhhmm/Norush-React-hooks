@@ -4,6 +4,7 @@ toc: content # 在页面右侧展示锚点链接
 title: useBoolean #自定义页面名称
 group: # 分组
   title: State #自定义分组名称
+  order: 2
 ---
 
 # useBoolean
@@ -14,7 +15,7 @@ group: # 分组
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code src="./demo/demo1.tsx" ></code>
 
 ## API
 
