@@ -1,8 +1,9 @@
 import { defineConfig } from 'dumi';
+console.log('defineConfig', defineConfig);
 
 export default defineConfig({
   outputPath: 'docs-dist', // 最终打包生成的文件
-  exportStatic: false,// 取消打包静态单个组件库和函数工具
+  exportStatic: false, // 取消打包静态单个组件库和函数工具
   themeConfig: {
     name: 'dhooks',
     nav: [
@@ -11,8 +12,8 @@ export default defineConfig({
     ],
   },
   styles: [
-    `.dumi-default-header-left {
-       width: 220px !important;
-    }`,
+    // `.dumi-default-header-left {
+    //    width: 220px !important;
+    // }`,
   ],
 });

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import './index.less';
 export interface ButtonProps {
-  /** 按钮类型 */ type?: 'primary' | 'default' /** 按钮文字 */;
+  type?: 'default' | 'primary' | 'success' | 'info' | 'warning' | 'danger';
   children?: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }

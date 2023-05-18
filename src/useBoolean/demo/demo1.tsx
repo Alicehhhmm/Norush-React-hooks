@@ -6,7 +6,7 @@
  * desc.zh-CN: 切换 boolean，可以接收默认值。
  */
 
-import { useBoolean } from 'dhooks';
+import { Button, useBoolean } from 'dhooks';
 import React from 'react';
 
 export default () => {
@@ -16,15 +16,15 @@ export default () => {
     <div>
       <p>Effects：{JSON.stringify(state)}</p>
       <p>
-        <button type="button" onClick={toggle}>
+        <Button type="primary" onClick={toggle}>
           Toggle
-        </button>
-        <button type="button" onClick={setFalse} style={{ margin: '0 16px' }}>
+        </Button>
+        <Button type="success" onClick={setFalse}>
           Set false
-        </button>
-        <button type="button" onClick={setTrue}>
+        </Button>
+        <Button type="info" onClick={setTrue}>
           Set true
-        </button>
+        </Button>
       </p>
     </div>
   );
