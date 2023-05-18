@@ -4,6 +4,7 @@ import PrimaryButton from './PrimaryButton';
 import useBoolean from './useBoolean';
 import useMemoizedFn from './useMemoizedFn';
 import useSet from './useSet';
+import useSetState from './useSetState';
 import useToggle from './useToggle';
 
 export {
@@ -14,4 +15,5 @@ export {
   useToggle,
   useMemoizedFn,
   useSet,
+  useSetState,
 };
