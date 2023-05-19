@@ -7,7 +7,7 @@
  */
 
 import { message } from 'antd';
-import { useMemoizedFn } from 'dhooks';
+import { useMemoizedFn } from 'norush-hooks';
 import React, { useCallback, useState } from 'react';
 
 export default () => {

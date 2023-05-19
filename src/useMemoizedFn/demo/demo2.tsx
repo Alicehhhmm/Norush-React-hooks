@@ -7,7 +7,7 @@
  */
 
 import { Button, message } from 'antd';
-import { useMemoizedFn } from 'dhooks';
+import { useMemoizedFn } from 'norush-hooks';
 import React, { useCallback, useRef, useState } from 'react';
 
 // some expensive component with React.memo

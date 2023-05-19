@@ -15,7 +15,7 @@ group: # 分组
 This is an example component.
 
 ```jsx
-import { AHome } from 'dhooks';
+import { AHome } from 'norush-hooks';
 
 export default () => <AHome title="Hello dumi!" />;
 ```

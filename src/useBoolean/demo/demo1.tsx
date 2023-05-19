@@ -6,7 +6,7 @@
  * desc.zh-CN: 切换 boolean，可以接收默认值。
  */
 
-import { Button, useBoolean } from 'dhooks';
+import { Button, useBoolean } from 'norush-hooks';
 import React from 'react';
 
 export default () => {

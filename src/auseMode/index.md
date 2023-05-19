@@ -1,20 +1,17 @@
 ---
 category: Components
-title: # 组件的标题，会在菜单侧边栏展示
+title: auseMole # 组件的标题，会在菜单侧边栏展示
 toc: content # 在页面右侧展示锚点链接
 group: # 分组
-  title: #自定义分组名称
+  title: example #自定义分组名称
   order: #控制分组顺序，数字越小越靠前，默认以路径长度和字典序排序
 ---
 
 ​
 
-# xxx hooks
+# auseMole hooks
 
-## 介绍
-
-​
-基础的按钮组件
+模板
 ​
 
 ## 示例

@@ -1,5 +1,5 @@
 // src/Button/demo/demo1.tsx
-import { Button } from 'dhooks';
+import { Button } from 'norush-hooks';
 import React from 'react';
 export default () => {
   return (

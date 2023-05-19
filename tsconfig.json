@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "dhooks": ["src"],
-      "dhooks/*": ["src/*", "*"]
+      "norush-hooks": ["src"],
+      "norush-hooks/*": ["src/*", "*"]
     }
   },
   "include": [

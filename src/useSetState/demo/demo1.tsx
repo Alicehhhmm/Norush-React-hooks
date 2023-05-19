@@ -6,7 +6,7 @@
  * desc.zh-CN: 自动合并对象。
  */
 
-import { Button, useSetState } from 'dhooks';
+import { Button, useSetState } from 'norush-hooks';
 import React from 'react';
 
 interface State {

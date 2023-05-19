@@ -6,7 +6,7 @@
  * desc.zh-CN: 接受两个可选参数，在它们之间进行切换。
  */
 
-import { Button, useToggle } from 'dhooks';
+import { Button, useToggle } from 'norush-hooks';
 import React from 'react';
 
 export default () => {

@@ -6,7 +6,7 @@
  * desc.zh-CN: 默认为 boolean 切换，基础用法与 useBoolean 一致。
  */
 
-import { Button, useToggle } from 'dhooks';
+import { Button, useToggle } from 'norush-hooks';
 import React from 'react';
 
 export default () => {

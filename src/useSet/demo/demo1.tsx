@@ -1,5 +1,5 @@
 import { Button } from 'antd';
-import { useSet } from 'dhooks';
+import { useSet } from 'norush-hooks';
 import React from 'react';
 
 export default () => {

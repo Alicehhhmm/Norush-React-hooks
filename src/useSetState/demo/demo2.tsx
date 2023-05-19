@@ -6,7 +6,7 @@
  * desc.zh-CN: 通过回调进行更新，可以获取上一次的状态，并且也会自动合并返回的对象。
  */
 
-import { Button, useSetState } from 'dhooks';
+import { Button, useSetState } from 'norush-hooks';
 import React from 'react';
 
 interface State {
