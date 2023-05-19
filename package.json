@@ -2,6 +2,14 @@
   "name": "dhooks",
   "version": "1.0.0",
   "description": "A react hooks tootls",
+  "keywords": [
+    "React hooks",
+    "lerna",
+    "antd",
+    "dumi",
+    "markdown"
+  ],
+  "homepage": "https://github.com/Alicehhhmm/Norush-React-hooks.git",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alicehhhmm/Norush-React-hooks "
