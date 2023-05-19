@@ -1,56 +1,66 @@
 <p align="center">
-  <a href="https://ahooks.js.org">
-    <img width="200" src="https://ahooks.js.org/logo.svg">
+  <a href="https://www.npmjs.com/package/norush-hooks?activeTab=readme">
+    <img width="200" src="/public/logo.svg">
   </a>
 </p>
-
 <div align="center">
-
-# norush-hooks
+    <a href="https://www.npmjs.com/package/norush-hooks?activeTab=readme">
+     <h1>norush-hooks</h1>
+  </a>
+</div>
 
 [![NPM version](https://img.shields.io/npm/v/norush-hooks.svg?style=flat)](https://npmjs.org/package/norush-hooks)
 [![NPM downloads](http://img.shields.io/npm/dm/norush-hooks.svg?style=flat)](https://npmjs.org/package/norush-hooks)
 
-A react library developed with dumi
+## 📦 安装
 
-## 🔨 Usage
-
-```ts
-import { useRequest } from 'norush-hooks';
+```bash
+$ npm install --save norush-hooks
+# or
+$ yarn add norush-hooks
 ```
 
-## 📚 Documentation
-
--[中文]()
-
-## Development
+## 📚 Development
 
 ```bash
 # install dependencies
 $ npm install
 
-# develop library by docs demo
+# enable peoject
 $ npm start
+# or
+$ npm run dev
 
-# build library source code
-$ npm run build
+```
 
-# build library source code in watch mode
-$ npm run build:watch
+## 🔨 Usage
 
-# build docs
-$ npm run docs:build
+```ts
+import { Button, useBoolean } from 'norush-hooks';
+import React from 'react';
 
-# check your project for potential problems
-$ npm run doctor
+export default () => {
+  const [state, { toggle, setTrue, setFalse }] = useBoolean(true);
 
-# test Unit
-$ npm run test:staged
-
-# test all
-$ npm run test:all
+  return (
+    <div>
+      <p>Effects：{JSON.stringify(state)}</p>
+      <p>
+        <Button type="primary" onClick={toggle}>
+          Toggle
+        </Button>
+        <Button type="success" onClick={setFalse}>
+          Set false
+        </Button>
+        <Button type="info" onClick={setTrue}>
+          Set true
+        </Button>
+      </p>
+    </div>
+  );
+};
 ```
 
 ## LICENSE
 
-MIT
+MIT Copyright (c) 2023-05-20 Norush
