@@ -6,7 +6,7 @@ hero:
     - text: 指南
       link: /guide
     - text: Hooks 列表
-      link: /components
+      link: /components/a-home
 features:
   - title: 集成
     emoji: 📦
